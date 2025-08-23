@@ -1,0 +1,21 @@
+# Ignore Rust build artifacts
+/target/
+**/*.d
+**/*.pdb
+**/*.exe
+**/*.rmeta
+**/*.lock
+
+# Ignore all Rust target folders and their contents
+**/target/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore other common files
+.DS_Store
+Thumbs.db
+
+# Ignore backup and temp files
+*.bak
+*.tmp
